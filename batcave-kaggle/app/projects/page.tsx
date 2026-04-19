@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 
-// Panel butonları için görselle uyumlu stil
+// Panel butonları için görselle uyumlu stil - TypeScript hatası giderildi (as const eklendi)
 const masterButtonStyle = {
   backgroundColor: '#facd05',
   color: '#000',
@@ -19,7 +19,7 @@ const masterButtonStyle = {
   letterSpacing: '1px',
   boxShadow: '0 8px 20px rgba(0,0,0,0.4)',
   cursor: 'pointer',
-  textAlign: 'center',
+  textAlign: 'center' as const, // KRİTİK DÜZELTME: Type error giderildi
   height: '100%',
   width: '100%'
 };
@@ -127,8 +127,8 @@ export default function WayneFinalPortfolio() {
                <a href={p.kaggle} target="_blank" rel="noreferrer" style={{ backgroundColor: '#facd05', color: '#000', padding: '20px 40px', borderRadius: '100px', fontWeight: '950', textDecoration: 'none' }}>KAGGLE</a>
                <a href={p.hf} target="_blank" rel="noreferrer" style={{ border: '3px solid #fff', color: '#fff', padding: '20px 40px', borderRadius: '100px', fontWeight: '950', textDecoration: 'none' }}>SPACES</a>
              </div>
-           </div>
-         </div>
+            </div>
+          </div>
         ))}
       </main>
 
