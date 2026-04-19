@@ -1,68 +1,36 @@
-# 🦇 Batman Kaggle Machine Learning Portfolio
-### 🦇 Batman Kaggle Makine Öğrenimi Portföyü
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
----
+## Getting Started
 
-## 🚀 Live Project Link / Projenin Canlı Linki
-**Click here to view the live portfolio:** 👉 [https://batman-portfolio-final-2026.vercel.app/](https://batman-portfolio-final-2026.vercel.app/)
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### 🌍 Welcome / Hoş Geldiniz
-**English:** Welcome to the Wayne Enterprises Data Archives. This repository contains 24 comprehensive projects focusing on Data Science, Machine Learning, and Deep Learning. Inspired by Batman's detective skills, I analyzed complex datasets to uncover hidden insights.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-**Türkçe:** Wayne Enterprises Veri Arşivine hoş geldiniz. Bu depo; Veri Bilimi, Makine Öğrenmesi ve Derin Öğrenme üzerine odaklanmış 24 kapsamlı projeyi içermektedir. Batman'in dedektiflik becerilerinden ilham alarak, karmaşık veri setlerini analiz ettim ve gizli kalıpları ortaya çıkardım.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 📂 Project List & Assignments / Proje Listesi ve Ödevler
+## Learn More
 
-| # | Project Title (English) | Proje Başlığı (Türkçe) | Topic / Konu |
-|:--|:---|:---|:---|
-| 01 | **Food Delivery Time Prediction** | Gıda Teslimat Süresi Tahmini | Regression / Regresyon |
-| 02 | **Diamond Price Prediction** | Elmas Fiyat Tahmini | Regression / Regresyon |
-| 03 | **Electricity Price Prediction** | Elektrik Fiyat Tahmini | Time Series / Zaman Serileri |
-| 04 | **Online Payments Fraud Detection** | Online Ödeme Dolandırıcılığı Tespiti | Classification / Sınıflandırma |
-| 05 | **Fake News Detection** | Sahte Haber Tespiti | NLP / Sınıflandırma |
-| 06 | **Corporate Bankruptcy Prediction** | Kurumsal İflas Tahmini | Financial ML / Finansal ML |
-| 07 | **Customer Personality Segmentation** | Müşteri Kişilik Segmentasyonu | Clustering / Kümeleme |
-| 08 | **Spotify Music Clustering Analysis** | Spotify Müzik Kümeleme Analizi | Unsupervised Learning |
-| 09 | **Credit Card Customer Segmentation** | Kredi Kartı Müşteri Segmentasyonu | Clustering / Kümeleme |
-| 10 | **Computer Vision: Gender Detection** | Bilgisayarlı Görü: Cinsiyet Tespiti | Deep Learning / CV |
-| 11 | **Photos to Pencil Sketches (OpenCV)** | Fotoğrafları Karakalem Çizime Dönüştürme | Image Processing |
-| 12 | **Advanced Car Logo Recognition** | Gelişmiş Araç Logosu Tanıma | Computer Vision / CV |
-| 13 | **NextGen HR-Tech: Resume Analysis** | Yeni Nesil İK: Özgeçmiş Analizi | NLP / Dashboard |
-| 14 | **Amazon Product Reviews NLP** | Amazon Ürün Yorumları Analizi | Sentiment Analysis |
-| 15 | **Multidisciplinary Text Categorization** | Multidisipliner Metin Kategorizasyonu | NLP |
-| 16 | **CastMatch AI Talent Matching** | CastMatch AI Yetenek Eşleştirme | Recommendation System |
-| 17 | **Movies & TV Shows Recommender** | Film ve TV Programı Önerici | Recommendation System |
-| 18 | **Heart Disease Risk Prediction** | Kalp Hastalığı Riski Tahmini | Healthcare ML |
-| 19 | **Daily Weather Time Series** | Günlük Hava Durumu Zaman Serileri | LSTM / Deep Learning |
-| 20 | **Workforce Optimization** | İş Gücü Optimizasyonu | Time Series Analysis |
-| 21 | **Hotel Reservation Demand Prediction** | Otel Rezervasyon Talebi Tahmini | ARIMA & LSTM |
-| 22 | **Gold Price Analysis & Visualization** | Altın Fiyat Analizi ve Görselleştirme | Data Visualization |
-| 23 | **Global Pollution Dashboard** | Küresel Kirlilik Kontrol Paneli | Data Viz / Dashboard |
-| 24 | **Nutrition Visualization (Fast Food)** | Beslenme Görselleştirme (Fast Food) | EDA / Data Viz |
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🔗 External Links / Dış Bağlantılar
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-* **Kaggle Notebooks:** [View All My Code Here](https://www.kaggle.com/esmatugbamergen/code) (Tüm kodlarıma buradan ulaşabilirsiniz.)
-* **HuggingFace Spaces:** [Live Interactive Demos](https://huggingface.co/ESMATUGBA) (Canlı interaktif demoları buradan deneyebilirsiniz.)
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-> **"It's not who I am underneath, but what I do that defines me."**
-> 
-> *Wayne Enterprises Archives // Secured Data // Gotham City*
-
----
-
-### ⚖️ Legal Disclaimer / Yasal Uyarı
-
-**English:** This project is for educational and portfolio purposes only. It is a non-commercial work. All Batman characters, related imagery, and music are the intellectual property of **DC Comics** and **Warner Bros. Entertainment**. No copyright infringement is intended.
-
-**Türkçe:** Bu proje sadece eğitim ve portfolyo amaçlıdır. Ticari bir amaç taşımamaktadır. Batman karakteri, ilgili görseller ve müzikler **DC Comics** ve **Warner Bros. Entertainment**'a ait fikri mülkiyetlerdir. Herhangi bir telif hakkı ihlali amaçlanmamıştır.
-
----
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
